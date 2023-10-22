@@ -1,0 +1,14 @@
+button{
+    border-radius: 5%;
+    margin: 2%;
+    text-decoration: none;
+    height: 5%;
+    width: 10%;
+}
+
+div{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    justify-content: center;
+}  
