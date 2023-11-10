@@ -32,7 +32,7 @@ let check = ``
 // GOOGLE CALENDER API 
 
   //Fetch
-fetch("https://www.googleapis.com/calendar/v3/calendars/c_d9aaaa6aa5b776b23b57ec82ab49a0b39b34177b8390aa055f926d10033e3648@group.calendar.google.com/events?key=<key>")
+fetch("https://www.googleapis.com/calendar/v3/calendars/<Calender ID>@group.calendar.google.com/events?key=<key>")
 .then(res => res.json())
 .then(res => res.items.forEach((data, index, array) => {
   let timeDate = data.end.dateTime
